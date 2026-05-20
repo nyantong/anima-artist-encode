@@ -1,8 +1,8 @@
 {
   "id": "f7a250a1-53fb-496b-8c39-c60d9e764028",
   "revision": 0,
-  "last_node_id": 803,
-  "last_link_id": 1307,
+  "last_node_id": 804,
+  "last_link_id": 1309,
   "nodes": [
     {
       "id": 62,
@@ -72,7 +72,7 @@
           "type": "CLIP",
           "links": [
             106,
-            1297
+            1309
           ]
         }
       ],
@@ -263,7 +263,7 @@
         {
           "name": "positive",
           "type": "CONDITIONING",
-          "link": 1298
+          "link": 1308
         },
         {
           "name": "negative",
@@ -299,7 +299,7 @@
         "secondTabWidth": 65
       },
       "widgets_values": [
-        376841316083128,
+        38122095455347,
         "randomize",
         30,
         4,
@@ -391,15 +391,15 @@
       "widgets_values": []
     },
     {
-      "id": 800,
+      "id": 804,
       "type": "AnimaArtistEncode",
       "pos": [
-        -992.0115003627341,
-        -282.5552202884867
+        -990.6505414705523,
+        -276.4052823016749
       ],
       "size": [
-        506.200032514741,
-        669.0171341049992
+        505.5999999999999,
+        654.5999999999999
       ],
       "flags": {},
       "order": 5,
@@ -408,7 +408,7 @@
         {
           "name": "clip",
           "type": "CLIP",
-          "link": 1297
+          "link": 1309
         }
       ],
       "outputs": [
@@ -416,13 +416,13 @@
           "name": "conditioning",
           "type": "CONDITIONING",
           "links": [
-            1298
+            1308
           ]
         },
         {
           "name": "debug_info",
           "type": "STRING",
-          "links": []
+          "links": null
         }
       ],
       "properties": {
@@ -433,6 +433,7 @@
       "widgets_values": [
         "masterpiece, best quality, newest, highres, absurdres, sensitive, year 2025, 1girl, @fujiyama, @(hashiguma:0.5), hatsune miku, rabbit hole \\(vocaloid\\), light smile, looking at viewer, ",
         "slider_boost",
+        "force_back",
         1,
         0.5,
         0.2,
@@ -493,28 +494,28 @@
       "IMAGE"
     ],
     [
-      1297,
-      61,
-      0,
-      800,
-      0,
-      "CLIP"
-    ],
-    [
-      1298,
-      800,
-      0,
-      66,
-      1,
-      "CONDITIONING"
-    ],
-    [
       1307,
       68,
       0,
       66,
       0,
       "MODEL"
+    ],
+    [
+      1308,
+      804,
+      0,
+      66,
+      1,
+      "CONDITIONING"
+    ],
+    [
+      1309,
+      61,
+      0,
+      804,
+      0,
+      "CLIP"
     ]
   ],
   "groups": [
@@ -558,10 +559,10 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 1.1,
+      "scale": 1.2100000000000002,
       "offset": [
-        1266.2941537921133,
-        337.7059066442744
+        1373.4458096632625,
+        546.9126433429226
       ]
     },
     "frontendVersion": "1.43.18",
