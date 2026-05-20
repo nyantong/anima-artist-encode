@@ -30,7 +30,7 @@ Restart ComfyUI. The node appears under `conditioning/anima`.
 2. Write a prompt with artist tags:
     
     ```
-    masterpiece, 1girl, @(fujiyama:1.0), @(hashiguma:0.5), long hair, white sweater
+    masterpiece, 1girl, @(arist_name:1.0), @(arist_name:0.5), long hair, white sweater
     ```
     
 3. Connect `conditioning` to `KSampler.positive`.
