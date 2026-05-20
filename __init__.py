@@ -1,4 +1,4 @@
-from .anima_artist_encode import AnimaArtistEncode
+from .node import AnimaArtistEncode
 
 NODE_CLASS_MAPPINGS = {
 	"AnimaArtistEncode": AnimaArtistEncode,
